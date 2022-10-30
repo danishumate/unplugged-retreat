@@ -539,10 +539,7 @@ input[type=button] {
 
   header figure {
     width: 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+    
   }
 
   /* Hero area */
@@ -647,7 +644,9 @@ input[type=button] {
 .contact-section .content-wrapper {
   width: 80%;
 }
-
+.map figure{
+  padding-bottom: 47.5%;
+}
 .contact-content {
   display: flex;
   justify-content: space-between;
@@ -724,6 +723,9 @@ input[type=button] {
   }
 
   /** about page **/
+  .map figure{
+    padding-bottom: 37.5
+  }
   .mission h2
   .contact-section .content-wrapper h2 {
       width: 93%;
