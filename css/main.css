@@ -295,12 +295,15 @@ input[type=button] {
 .features {
   display: flex;
   justify-content: center;
- flex-flow: row wrap;
- background-image: url('../img/main-content-background.png');
- /**background-repeat: no-repeat; **/
- background-size: cover;
- background-position: center;
- 
+  flex-flow: row wrap;
+  background-image: url('../img/main-content-background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 .featurees h2 {
   margin-bottom: 60px;
@@ -353,7 +356,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #527158;
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -581,7 +584,7 @@ input[type=button] {
   }
 
   .features .features-item-description {
-    width: 60%;
+    width: 61%;
   }
 
   /* Reviews */
@@ -655,7 +658,7 @@ input[type=button] {
 .contact-content h4 {
   font-size: 1.5em;
 }
-  /* FAQ page */
+  /***** FAQ page *******/
   .faq .content-wrapper {
     justify-content: space-between;
   }
@@ -703,6 +706,10 @@ input[type=button] {
   aside .content-wrapper .form-description
   aside .content-wrapper .form {
     width: 30%;
+  }
+
+  .form-description p {
+    font-size: 1.125em;
   }
   /** features **/
   .features h2 {
