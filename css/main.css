@@ -86,7 +86,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*** general styles ***/
+/*** General Styles ***/
 
   html {
     font-size: 16px;
@@ -100,7 +100,8 @@ textarea {
   }
 
   ul, ol {
-    list-style: none;
+    list-style-type: none;
+    margin: 0
   }
 
   a {
@@ -112,7 +113,7 @@ textarea {
     font-family: 'poppins', sans-serif;
     font-size: 1.875em;
     font-weight: 500;
-
+    margin: 0;
   }
 
   h3, h4 {
@@ -201,10 +202,10 @@ header nav ul {
 }
 
 header nav ul li {
-  font-size: 1.125;
+  font-size: 1.125em;
 }
 
-/** footer **/
+/** Footer **/
 
 footer{
   flex-direction: column;
@@ -213,6 +214,11 @@ footer{
 
 footer p {
   margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
 footer .contact{
@@ -224,15 +230,19 @@ footer .social-icons {
   justify-content: space-around;
   align-items: center;
 }
-footer .social p {
+
+footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
+footer .social-icons p i {
+  font-size: 1.3125;
 }
 
 footer .copyright {
@@ -247,7 +257,6 @@ footer .copyright {
   flex-flow: row wrap;
   background-image: url('../img/jake-melara-30679-unsplash.png');
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
   min-height: 500px;
 }
@@ -296,7 +305,7 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-image: url('../img/main-content-background.png');
+  background-image: url('../img/features-photo.jpg');
   background-size: cover;
   background-position: center;
 }
@@ -520,7 +529,7 @@ input[type=button] {
 /** Header **/
   header {
     justify-content: space-around;
-    padding: 35px 0;
+    padding: 32px 0;
   }
 
   header .content-wrapper {
@@ -532,7 +541,7 @@ input[type=button] {
     width: 20%;
   }
 
-  header nav ul {
+  header nav ul  {
     justify-content: space-between;
   }
 
@@ -608,7 +617,7 @@ input[type=button] {
 
   footer .content-wrapper {
     width: 65%;
-    margin: 100px o;
+    margin: 100px 0;
   }
 
   footer .footer-content {
@@ -630,11 +639,20 @@ input[type=button] {
     line-height: 1.285;
   }
 
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+  }
+
   footer .copyright {
     width: 100%;
   }
 
-/** About Page **/
+  
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
 .mission-content {
   display: flex;
   justify-content: space-between;
@@ -666,7 +684,7 @@ input[type=button] {
     flex-basis: 45%;
   }
   .faq h2 {
-    width: 100%
+    width: 100%;
   }
   .faq h4,
   .faq p {
@@ -731,7 +749,7 @@ input[type=button] {
 
   /** about page **/
   .map figure{
-    padding-bottom: 37.5
+    padding-bottom: 37.5%;
   }
   .mission h2
   .contact-section .content-wrapper h2 {
