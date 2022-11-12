@@ -83,6 +83,9 @@ textarea {
   resize: vertical;
 }
 
+
+
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -95,13 +98,15 @@ textarea {
   body {
     font-family: 'open sans', sans-serif;
     font-size: 1em;
-    text-align: left;
+    text-align: left; 
     color: #e2e3ed;
+    margin: 0;
   }
 
   ul, ol {
     list-style-type: none;
-    margin: 0
+    margin: 0;
+    padding: 0;
   }
 
   a {
@@ -165,16 +170,16 @@ header .content-wrapper {
   margin: 0;
 }
 
+header {
+  padding: 15px 0;
+}
+
 header figure {
   width: 60%;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-flow: row wrap;
-}
-
-header{
-  padding: 15px 0;
 }
 
 .header-divider {
@@ -242,7 +247,7 @@ footer .social-icons p {
 }
 
 footer .social-icons p i {
-  font-size: 1.3125;
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -375,7 +380,7 @@ input[type=button] {
 .map figure {
   width: 100%;
   height: 0;
-  padding-bottom: 75%;
+  padding-bottom: 125%;
   overflow: hidden;
   position: relative;
 }
@@ -657,12 +662,12 @@ input[type=button] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 22px;
+  padding-top: 19px;
 }
 .mission-content p {
   width: 45%;
 }
-.contact-section .content-wrapper {
+.contact-section .content-wrapper h2 {
   width: 80%;
 }
 .map figure{
@@ -734,7 +739,7 @@ input[type=button] {
     width: 90%;
   }
   .features article {
-    flex-basis: 31%;
+    flex-basis: 33%;
   }
   /** Reviews **/
   .reviews article div {
@@ -753,7 +758,7 @@ input[type=button] {
   }
   .mission h2
   .contact-section .content-wrapper h2 {
-      width: 93%;
+      width: 95%;
       font-size: 3em;
   }
   .contact-content h4 {
