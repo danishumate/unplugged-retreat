@@ -512,6 +512,7 @@ input[type=button] {
    Modify as content requires.
    ========================================================================== */
 
+
 @media only screen and (min-width: 768px) {
   /* tablet styles here*/
 
@@ -521,15 +522,15 @@ input[type=button] {
     max-width: 640px;
     margin: 100px 0;
   }
-  
+      
   h2 {
     font-size: 2.25em;
     line-height: 1.333;
   }
 
   h3 {
-    font-size: 1.5em;
-    line-height: 1.25;
+      font-size: 1.5em;
+      line-height: 1.25;
   }
 /** Header **/
   header {
@@ -635,22 +636,24 @@ input[type=button] {
   footer .contact {
     margin-bottom: 0;
   }
+
   footer h4 {
     font-size: 1.5em;
     margin-bottom: 40px;
   }
 
   footer p {
-    line-height: 1.285;
+      line-height: 1.285;
   }
 
   footer .social-icons {
     width: 12.5em;
     justify-content: space-between;
   }
-
+  
   footer .copyright {
     width: 100%;
+    padding: 70px 0;
   }
 
   
@@ -685,16 +688,19 @@ input[type=button] {
   .faq .content-wrapper {
     justify-content: space-between;
   }
+
   .faq-content {
     flex-basis: 45%;
   }
+
   .faq h2 {
     width: 100%;
   }
+
   .faq h4,
   .faq p {
-    font-size: .875em;
-    line-height: 1.125;
+      font-size: .875em;
+      line-height: 1.125;
   }
 }
 
@@ -704,7 +710,7 @@ input[type=button] {
     padding: 15px 0;
   }
   .content-wrapper {
-    max-width: 960px; 
+    max-width: 1000px; 
   }
   h2 {
     font-size: 2.25em;
