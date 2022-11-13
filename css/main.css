@@ -305,6 +305,7 @@ input[type=button] {
   text-transform: uppercase;
 }
 
+
 /** features **/
 .features {
   display: flex;
@@ -331,6 +332,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 .featurees p {
